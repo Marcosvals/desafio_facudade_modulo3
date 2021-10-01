@@ -1,12 +1,7 @@
 ----------------------------------------------------------------------------
-Este é o arquivo README do projeto. Você deve descrever aqui o seu projeto.
-Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
-ele/ela precisa saber. Os comentários devem incluir, pelo menos:
+Desafio da faculdade do modulo 3 de laboratorio 1.
 ------------------------------------------------------------------------
 
-TÍTULO DO PROJETO:
-OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
-COMO INICIAR O PROJETO:
-AUTORES:
-INSTRUÇÕES PARA O USUÁRIO:
+TÍTULO DO PROJETO: Desafio Modulo 3
+VERSÃO ou DATA:01/10/2021
+AUTORES:Marcos Vinicius
