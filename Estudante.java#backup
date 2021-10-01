@@ -1,0 +1,83 @@
+
+/**
+ * Escreva uma descrição da classe Estudante aqui.
+ * 
+ * @author Marcos Vinicius 
+ * @version (um número da versão ou uma data)
+ */
+public class Estudante extends Cidade
+{
+    private int codigo;
+    private String nome;
+    private String dataNascimento;
+    private String email;
+    private String senha;
+    private Cidade cidade;
+
+    
+    public Estudante(String nome, int codigo, String dataNascimento, String email, String senha, Cidade cidade){
+        this.codigo = codigo;
+        this.nome = nome;
+        this.dataNascimento = dataNascimento;
+        this.email = email;
+        this.senha = senha;
+        this.cidade = cidade;
+        
+        cidade.adicionaNovoEstudante();
+    }
+    
+    public int getCodigo(){
+        return codigo;
+    }
+    
+    public String getNome(){
+        return nome;
+    }
+    
+    public String getdataNascimento(){
+        return dataNascimento;
+    }
+    
+    public String getEmail(){
+        return email;
+    }
+    
+    public String getSenha(){
+        return senha;
+    }
+    
+    public Cidade cidade(){
+        return cidade;
+    }
+    
+    public void setCodigo(int codigo){
+        this.codigo = codigo;
+    }
+    
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    
+    public void getdataNascimento(String dataNascimento){
+        this.dataNascimento = dataNascimento;
+    }
+    
+    public void setEmail(){
+        this.email = email;
+    }
+    
+    public void setSenha(String senha){
+        this.senha = senha;
+    }
+    
+    public void setCidade (Cidade cidade){
+        this.cidade = cidade;
+    }
+    
+    public void exibeDados(){
+        System.out.printf("Codigo: %d\n", codigo);
+        System.out.printf("Nome: %s\n", nome);
+        System.out.printf("Data de nascimento: %s\n", dataNascimento);
+        System.out.printf(""
+    }
+}
